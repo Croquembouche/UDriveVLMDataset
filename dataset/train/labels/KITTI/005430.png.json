@@ -1,0 +1,49 @@
+{
+  "Scene": "Commercial",
+  "TimeOfDay": "Daytime",
+  "Weather": "Sunny",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "NoLane",
+    "LaneMarkings": "Lane Not Clearly Visible",
+    "SpecialLanes": [
+      "NoSpecialLanes"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "Yield Sign"
+    ],
+    "TrafficSignsVisibility": "Visible",
+    "VehicleTypes": [
+      "Sedan",
+      "Van",
+      "Hatchback"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "MultipleVehicles",
+    "InMotion": [
+      "False"
+    ],
+    "States": [
+      "Parked"
+    ]
+  },
+  "Pedestrians": [
+    "MultiplePed"
+  ],
+  "Directionality": "Roundabout",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoApproaching Roundabout",
+    "Maneuver": "EgoYielding"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 4
+}

@@ -1,0 +1,50 @@
+{
+  "Scene": "Commercial",
+  "TimeOfDay": "Daytime",
+  "Weather": "Sunny",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "Three",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "Street Parking"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "NoTrafficSigns"
+    ],
+    "TrafficSignsVisibility": "SignNotVisible",
+    "VehicleTypes": [
+      "Pickup Truck",
+      "Sedan",
+      "SUV"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "Few",
+    "InMotion": [
+      "False"
+    ],
+    "States": [
+      "Parked",
+      "Stopped"
+    ]
+  },
+  "Pedestrians": [
+    "NoPed"
+  ],
+  "Directionality": "Two-Way",
+  "Ego-Vehicle": {
+    "Direction": "Forward",
+    "Maneuver": "Moving"
+  },
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "CameraCondition": "Clear",
+  "Severity": 2
+}

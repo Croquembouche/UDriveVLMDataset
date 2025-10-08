@@ -1,0 +1,48 @@
+{
+  "Scene": "Under Bridge",
+  "TimeOfDay": "Daytime",
+  "Weather": "Clear",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "Two",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "Crosswalk"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "Pedestrian Crossing",
+      "Height Limit"
+    ],
+    "TrafficSignsVisibility": "Visible",
+    "VehicleTypes": [
+      "Hatchback"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "Few",
+    "InMotion": [
+      "False"
+    ],
+    "States": [
+      "Parked"
+    ]
+  },
+  "Pedestrians": [
+    "Crossing Street"
+  ],
+  "Directionality": "Two-Way",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoForward",
+    "Maneuver": "EgoMoving"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 6
+}

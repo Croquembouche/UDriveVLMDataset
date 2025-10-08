@@ -1,0 +1,51 @@
+{
+  "Scene": "Roundabout",
+  "TimeOfDay": "Daytime",
+  "Weather": "Overcast",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "MultipleLanes",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "NoSpecialLanes"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "Yield Sign",
+      "Directional Arrow",
+      "Information Sign"
+    ],
+    "TrafficSignsVisibility": "Visible",
+    "VehicleTypes": [
+      "Sedan",
+      "SUV",
+      "Hatchback"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "MultipleVehicles",
+    "InMotion": [
+      "True"
+    ],
+    "States": [
+      "In Motion"
+    ]
+  },
+  "Pedestrians": [
+    "NoPed"
+  ],
+  "Directionality": "Roundabout",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoApproaching Roundabout",
+    "Maneuver": "EgoSlowing Down"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 4
+}

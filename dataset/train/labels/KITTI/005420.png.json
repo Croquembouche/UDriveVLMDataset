@@ -1,0 +1,47 @@
+{
+  "Scene": "Highway",
+  "TimeOfDay": "Daytime",
+  "Weather": "Sunny",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "MultipleLanes",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "NoSpecialLanes"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "NoTrafficSigns"
+    ],
+    "TrafficSignsVisibility": "SignNotVisible",
+    "VehicleTypes": [
+      "Cars"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "MultipleVehicles",
+    "InMotion": [
+      "False"
+    ],
+    "States": [
+      "In Queue"
+    ]
+  },
+  "Pedestrians": [
+    "NoPed"
+  ],
+  "Directionality": "Two-Way",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoForward",
+    "Maneuver": "EgoIn Queue"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 3
+}

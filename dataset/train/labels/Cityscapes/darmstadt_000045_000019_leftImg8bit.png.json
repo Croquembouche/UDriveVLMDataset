@@ -1,0 +1,52 @@
+{
+  "Scene": "Intersection",
+  "TimeOfDay": "Dusk/Dawn",
+  "Weather": "Partly Cloudy",
+  "RoadConditions": "Wet",
+  "LaneInformation": {
+    "NumberOfLanes": "MultipleLanes",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "Crosswalk"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficLightState": "Green",
+    "TrafficSignsTypes": [
+      "Traffic Light",
+      "Yield Sign",
+      "Directional Arrow"
+    ],
+    "TrafficSignsVisibility": "Visible",
+    "VehicleTypes": [
+      "Sedan",
+      "Van",
+      "Hatchback"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "MultipleVehicles",
+    "InMotion": [
+      "True"
+    ],
+    "States": [
+      "In Motion"
+    ]
+  },
+  "Pedestrians": [
+    "Crossing Street"
+  ],
+  "Directionality": "Multi-directional with median",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoStopped",
+    "Maneuver": "EgoYielding"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 7
+}

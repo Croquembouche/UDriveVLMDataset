@@ -1,0 +1,52 @@
+{
+  "Scene": "Commercial",
+  "TimeOfDay": "Daytime",
+  "Weather": "Sunny",
+  "RoadConditions": "Dry",
+  "LaneInformation": {
+    "NumberOfLanes": "NoLane",
+    "LaneMarkings": "Not Visible",
+    "SpecialLanes": [
+      "NoSpecialLanes"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficSignsTypes": [
+      "NoTrafficSigns"
+    ],
+    "TrafficSignsVisibility": "SignNotVisible",
+    "VehicleTypes": [
+      "Sedan",
+      "Motorcycle"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "Few",
+    "InMotion": [
+      "False"
+    ],
+    "States": [
+      "Parked"
+    ]
+  },
+  "Pedestrians": [
+    "MultiplePed"
+  ],
+  "Animals": {
+    "Type": "Dog",
+    "State": "On Sidewalk"
+  },
+  "Directionality": "Unknown",
+  "Visibility": {
+    "General": "Good",
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoStopped",
+    "Maneuver": "EgoFullStopped"
+  },
+  "CameraCondition": "Clear",
+  "Severity": 5
+}

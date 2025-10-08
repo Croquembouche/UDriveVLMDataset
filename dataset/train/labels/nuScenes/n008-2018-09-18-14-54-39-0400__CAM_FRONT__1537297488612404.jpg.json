@@ -1,0 +1,58 @@
+{
+  "Scene": "Urban",
+  "TimeOfDay": "Daytime",
+  "Weather": "Rainy",
+  "RoadConditions": "Wet",
+  "LaneInformation": {
+    "NumberOfLanes": "Three",
+    "LaneMarkings": "LaneVisible",
+    "SpecialLanes": [
+      "Crosswalk"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficLightState": "Red",
+    "TrafficSignsTypes": [
+      "No Left Turn",
+      "Do Not Block Intersection",
+      "Traffic Light"
+    ],
+    "TrafficSignsVisibility": "Visible",
+    "VehicleTypes": [
+      "Pickup Truck",
+      "Cars",
+      "Commercial Delivery Truck",
+      "Sedan"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": "MultipleVehicles",
+    "InMotion": [
+      "True"
+    ],
+    "States": [
+      "In Motion",
+      "Turning Left",
+      "Crossing Intersection"
+    ]
+  },
+  "Pedestrians": [
+    "Visible on Sidewalk"
+  ],
+  "Animals": {
+    "None": "True"
+  },
+  "Directionality": "Two-Way",
+  "Visibility": {
+    "General": "Reduced",
+    "SpecificImpairments": [
+      "Obstructed by Rain"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoStopped at Intersection",
+    "Maneuver": "EgoWaiting"
+  },
+  "CameraCondition": "RainOnLens",
+  "Severity": 6
+}

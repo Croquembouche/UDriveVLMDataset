@@ -1,0 +1,101 @@
+{
+  "Scene": [
+    "Urban"
+  ],
+  "TimeOfDay": [
+    "Daytime"
+  ],
+  "Weather": [
+    "Overcast"
+  ],
+  "RoadConditions": [
+    "Dry"
+  ],
+  "LaneInformation": {
+    "NumberOfLanes": [
+      "Multiple"
+    ],
+    "LaneMarkings": [
+      "Visible"
+    ],
+    "SpecialLanes": [
+      "Street Parking",
+      "Bike Lane"
+    ]
+  },
+  "TrafficSigns": {
+    "TrafficLightState": [
+      "None"
+    ],
+    "TrafficSignsTypes": [
+      "Parking Sign",
+      "Directional Arrow"
+    ],
+    "TrafficSignsVisibility": [
+      "Visible"
+    ],
+    "VehicleTypes": [
+      "Sedan",
+      "Hatchback",
+      "Compact Car"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": [
+      "Multiple"
+    ],
+    "InMotion": [
+      "True"
+    ],
+    "States": [
+      "In Motion",
+      "Parked"
+    ]
+  },
+  "Pedestrians": [
+    "Visible on Sidewalk"
+  ],
+  "Policeman": {
+    "Presence": [
+      "False"
+    ],
+    "States": [
+      "None"
+    ]
+  },
+  "Bicyclist": {
+    "Presence": [
+      "True"
+    ],
+    "Location": [
+      "On Sidewalk"
+    ]
+  },
+  "Animals": {
+    "Type": [
+      "None"
+    ],
+    "State": [
+      "None"
+    ]
+  },
+  "Directionality": [
+    "Two-Way"
+  ],
+  "Visibility": {
+    "General": [
+      "Good"
+    ],
+    "SpecificImpairments": [
+      "NoImpairments"
+    ]
+  },
+  "Ego-Vehicle": {
+    "Direction": "EgoForward",
+    "Maneuver": "EgoMoving"
+  },
+  "CameraCondition": [
+    "Clear"
+  ],
+  "Severity": 3
+}
