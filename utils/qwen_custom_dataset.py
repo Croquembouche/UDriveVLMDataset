@@ -145,6 +145,10 @@ SPECIAL_CASES = {
     "Ped Crossing": "pedestrians crossing",
     "Ped Waiting": "pedestrians waiting",
     "NoImpairments": "no specific impairments",
+    "EgoForward": "forward",
+    "EgoIn Queue": "queued",
+    "EgoInQueue": "queued",
+    "Cars": "cars",
     "InQueue": "queued",
     "In Queue": "queued",
     "Camera glare": "camera glare",
@@ -688,7 +692,7 @@ def export_dataset(config: Mapping[str, Any], *, quiet: bool = False) -> int:
 
             if append_label_json:
                 label_json = json.dumps(
-                    label_data, ensure_ascii=False, sort_keys=True, indent=2
+                    label_data, ensure_ascii=False, sort_keys=True, separators=(',', ':')
                 )
                 assistant_content = f"{description}\n{label_json}"
                 if preview_count <= preview_limit:

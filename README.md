@@ -100,3 +100,37 @@ swift train \
 ```
 
 Feel free to extend the utilities for other annotation schemas or VLM models.
+
+## Fine-tuning with ms-swift
+
+Once `train_qwen.jsonl` is ready you can launch LoRA fine-tuning through the
+helper script in `scripts/train_qwen2vl.sh`. The script wraps the `swift sft`
+CLI and exposes key hyperparameters via environment variables.
+
+1. Install ms-swift (from this checkout):
+   ```bash
+   cd ms-swift
+   pip install -e .
+   ```
+2. Create an output directory and run the training script from the repository
+   root:
+   ```bash
+   chmod +x scripts/train_qwen2vl.sh    # one-time
+   CUDA_VISIBLE_DEVICES=0 \
+   MODEL_NAME=Qwen/Qwen2-VL-2B-Instruct \
+   scripts/train_qwen2vl.sh
+   ```
+
+Important environment variables:
+
+- `DATASET_PATH` – Set this if you generated an alternative JSONL location.
+- `OUTPUT_DIR` – Where checkpoints and logs are stored (defaults to
+  `output/qwen2vl_lora`).
+- `MAX_PIXELS` – The image resolution budget forwarded to the VLM preprocessor.
+- `MAX_LENGTH` – Context window for tokenized samples (defaults to `4096`; increase if you keep the long prompt + JSON output).
+- `NUM_TRAIN_EPOCHS`, `LEARNING_RATE`, `GRADIENT_ACCUMULATION_STEPS`, etc. –
+  Override default hyperparameters as needed.
+
+By default the script enables LoRA, freezes the visual encoder, and allocates
+2% of the dataset to validation via `--split_dataset_ratio`. Adjust any of the
+exported environment variables to tailor the run to your hardware budget.
