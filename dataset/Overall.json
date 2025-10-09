@@ -1,0 +1,375 @@
+{
+  "Scene": [
+    "Urban",
+    "Suburban",
+    "Highway",
+    "Residential",
+    "Commercial",
+    "Intersection",
+    "Parking Area",
+    "Construction",
+    "School Zone",
+    "Industrial",
+    "Unknown",
+    "Rural",
+    "Under Bridge"
+  ],
+  "TimeOfDay": [
+    "Daytime",
+    "Dusk/Dawn",
+    "Nighttime"
+  ],
+  "Weather": [
+    "Sunny",
+    "Clear",
+    "Rainy",
+    "Overcast",
+    "Cloudy",
+    "Partly Cloudy",
+    "Not Indicated"
+  ],
+  "RoadConditions": [
+    "Dry",
+    "Wet"
+  ],
+  "LaneInformation": {
+    "NumberOfLanes": [
+      "NoLane",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "MultipleLanes"
+    ],
+    "LaneMarkings": [
+      "LaneVisible",
+      "LaneNotVisible",
+      "LaneNotClearlyVisible"
+    ],
+    "SpecialLanes": [
+      "NoSpecialLanes",
+      "Bike Lane",
+      "Taxi and Bus Lane",
+      "Center Lane",
+      "Right Turn Only Lane",
+      "Forward Only Lane",
+      "Left Turn Only Lane",
+      "Street Parking",
+      "Tram Tracks",
+      "HOV Lane",
+      "Crosswalk",
+      "Road Work",
+      "Traffic Cones Blocking Parts of the Road",
+      "Bridge",
+      "Roundabout",
+      "Construction Cones",
+      "Construction Barriers",
+      "Bus Stop"
+    ]
+  },
+  "TrafficSigns": {
+    "Types": [
+      "Bus Lane",
+      "Tow Area Sign",
+      "Fallen Sign",
+      "Do Not Enter",
+      "Crosswalk Closed",
+      "Crosswalk",
+      "Curve",
+      "Yield to Pedestrians",
+      "Speed Limit",
+      "Dead End",
+      "No Parking",
+      "Parking Sign",
+      "Traffic Light",
+      "Traffic Light Warning Sign",
+      "Detour",
+      "Bus Stop Sign",
+      "Tram Sign",
+      "Pedestrian Crossing",
+      "Pedestrian Signal",
+      "Pedestrian Warning",
+      "Stop for Pedestrians",
+      "No Pavement Markings",
+      "Stop Sign",
+      "Exit Sign",
+      "Merge Sign",
+      "Speed Bump",
+      "Electronic Sign",
+      "Road Work",
+      "Street Sign",
+      "Speeding Fine Doubled",
+      "Double Fines End",
+      "Work Zone",
+      "No Left Turn",
+      "Left Turn Only",
+      "No Right Turn",
+      "Right Turn Only",
+      "Not a Thru Street",
+      "Right Lane Must Turn Right",
+      "Left Lane Must Turn Left",
+      "School Zone",
+      "Railroad Crossing",
+      "Do Not Stop on Tracks",
+      "Do Not Block",
+      "Do Not Block Intersection",
+      "No Stopping",
+      "No Turn On Red",
+      "No Trucks Allowed",
+      "No U-Turn",
+      "Route Sign",
+      "One Way Sign",
+      "Share the Road",
+      "Road Work Ahead",
+      "Road Closed",
+      "NoTrafficSigns",
+      "Two-Way Traffic",
+      "Construction Warning",
+      "Yield Sign",
+      "Bike Lane Sign",
+      "Weight Limit",
+      "Directional Arrow",
+      "Information Sign",
+      "No Pedestrian Crossing",
+      "End Road Work",
+      "Bike Lane Ends",
+      "Keep Right Sign",
+      "Loading Zone Sign",
+      "Emergnecy Route",
+      "Gas Station Sign",
+      "Height Limit",
+      "Hospital Sign",
+      "Intersection Warning",
+      "No Entry Sign",
+      "Pedestrian Only Zone",
+      "Roundabout Sign",
+      "Tunnel Sign"
+    ],
+    "Visibility": [
+      "SignVisible",
+      "SignNotVisible",
+      "SignNotClearlyVisible",
+      "SignNotIndicated"
+    ],
+    "TrafficLightState": [
+      "Red",
+      "Green",
+      "Yellow",
+      "In Transition(NoState)",
+      "In Transition(TwoState)",
+      "Broken(NoState)"
+    ]
+  },
+  "Vehicles": {
+    "TotalNumber": [
+      "NoVehicle",
+      "One",
+      "Few",
+      "MultipleVehicles"
+    ],
+    "InMotion": [
+      "True",
+      "False"
+    ],
+    "VehicleTypes": [
+      "Containers",
+      "SUV",
+      "Truck",
+      "Pickup Truck",
+      "Semi-Trailer Truck",
+      "Sedan",
+      "Bus",
+      "Cars",
+      "Van",
+      "Hatchback",
+      "Sports Car",
+      "Construction Vehicles",
+      "Cement Mixer Truck",
+      "Utility Truck",
+      "Delivery Truck",
+      "Commercial Delivery Truck",
+      "Police Car",
+      "Service Vehicle",
+      "Commercial Vehicle",
+      "Taxi",
+      "Convertible",
+      "Crossover",
+      "Motorcycle",
+      "Box Truck",
+      "Station Wagon",
+      "Minivan",
+      "Biodiesel Vehicle",
+      "Commerical Truck",
+      "Coupe",
+      "Trolley",
+      "Compact Car",
+      "Forklift",
+      "Armored Truck",
+      "Ambulance",
+      "Shuttle Bus",
+      "Jeep",
+      "RV",
+      "Scooter",
+      "Tram"
+    ],
+    "States": [
+      "Parked",
+      "In Motion",
+      "Stopped",
+      "Merging",
+      "In Queue",
+      "Door Open",
+      "Violate Traffic Rules",
+      "Waiting to Turn Right",
+      "Picking up a Passenger",
+      "Interacting with Driver",
+      "Passenger Exiting",
+      "Overtaking",
+      "Stopped at Intersection",
+      "Stopped at Traffic Light",
+      "Blocking Parts of the Road",
+      "Turning Left",
+      "Turning Right",
+      "Turning",
+      "Waiting to Turn Left",
+      "Waiting to Turn Right",
+      "Waiting",
+      "Waiting to Turn",
+      "Utility Work",
+      "Performing Roadwork",
+      "Stopped at Crosswalk",
+      "Crossing Intersection",
+      "Exiting Intersection",
+      "Loading",
+      "Slowing Down"
+    ]
+  },
+  "Pedestrians": [
+    "NoPed",
+    "MultiplePed",
+    "Visible on Sidewalk",
+    "Crossing Street",
+    "Boarding Bus",
+    "Waiting at Bus Stop",
+    "Interacting with Vehicle",
+    "Wheelchair on the Street",
+    "Wheelchair on the Sidewalk"
+  ],
+  "Policeman": {
+    "Presence": [
+      "True",
+      "False"
+    ],
+    "States": [
+      "Directing Traffic",
+      "NoPolicemanState"
+    ]
+  },
+  "Bicyclist": {
+    "Presence": [
+      "True",
+      "False"
+    ],
+    "Location": [
+      "In Bike Lane",
+      "In Vehicle Lane",
+      "On Sidewalk",
+      "Crossing Road",
+      "NoBicyclistLocation"
+    ]
+  },
+  "Animals": {
+    "Type": [
+      "Bird",
+      "Dog",
+      "NoAnimal"
+    ],
+    "State": [
+      "Crossing Road",
+      "On Sidewalk",
+      "NoAnimalState"
+    ]
+  },
+  "Directionality": [
+    "One-Way",
+    "Two-Way",
+    "Multi-directional with median",
+    "Divided",
+    "Roundabout",
+    "Unknown"
+  ],
+  "Ego-Vehicle": {
+    "Direction": [
+      "EgoStopped",
+      "EgoForward",
+      "EgoMaking a Left Turn",
+      "EgoMaking a Right Turn",
+      "EgoStopped at Intersection",
+      "EgoStopped at Stop Sign",
+      "EgoApproaching Intersection",
+      "EgoMerging",
+      "EgoExiting Roundabout",
+      "EgoEntering Roundabout",
+      "EgoApproaching Roundabout",
+      "EgoExiting Highway",
+      "EgoParked"
+    ],
+    "Maneuver": [
+      "EgoWaiting",
+      "EgoFullStopped",
+      "EgoStopped in Parking Space",
+      "EgoTurning Right",
+      "EgoTurning Left",
+      "EgoMerging Left",
+      "EgoMerging Right",
+      "EgoSlowing Down",
+      "EgoTurning",
+      "EgoYielding",
+      "EgoMoving",
+      "EgoFollowing",
+      "EgoIn Queue",
+      "EgoMerging",
+      "EgoProceeding through Intersection",
+      "EgoOvertaking on Opposing Lane",
+      "EgoOvertaking"
+    ]
+  },
+  "Visibility": {
+    "General": [
+      "Good",
+      "Reduced",
+      "Limited",
+      "Poor"
+    ],
+    "SpecificImpairments": [
+      "Camera Glare",
+      "Obstructed",
+      "Shadows",
+      "Reduced",
+      "NoImpairments",
+      "Obstructed by Rain",
+      "Reflections"
+    ]
+  },
+  "CameraCondition": [
+    "Clear",
+    "Dirty",
+    "SnowOnLens",
+    "DirtOnLens",
+    "RainOnLens",
+    "Glare"
+  ],
+  "Severity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+}
